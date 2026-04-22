@@ -7,7 +7,7 @@ import java.nio.file.Paths;
  * Command-line driver for the Turing machine simulator. Expects one argument: the path to an
  * encoding file. Prints the digits on all tape cells visited during the run.
  *
- * @author Student
+ * @author Maria Gomez and Amy Lee
  */
 public final class TMSimulator {
 

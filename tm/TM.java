@@ -10,7 +10,7 @@ import java.nio.file.Path;
  * Represents a deterministic Turing machine with a bi-infinite tape alphabet
  * Γ = {0} ∪ Σ, blank 0, input symbols 1…m. State 0 is start; state {@code numStates - 1} halts.
  *
- * @author Student
+ * @author  Maria Gomez and Amy Lee
  */
 public final class TM {
 

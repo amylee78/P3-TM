@@ -2,9 +2,9 @@ package tm;
 
 /**
  * Constants and helpers for Turing machine state labels used in this project.
- * The start state is always {@value #START_ID}; the halting state is always {@code |Q| - 1}.
+ * The start state is always 0; the halting state is always {@code |Q| - 1}.
  *
- * @author Student
+ *  @author Maria Gomez and Amy Lee
  */
 public final class TMState {
 

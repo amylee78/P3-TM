@@ -5,10 +5,10 @@ import java.util.Map;
 
 /**
  * Bi-infinite tape for a Turing machine using integer symbols.
- * Unvisited cells behave as blank ({@code 0}). Tracks the span of cells the head has
+ * Unvisited cells behave as blank (0). Tracks the span of cells the head has
  * visited so the final segment can be printed.
  *
- * @author Student
+ * @author Maria Gomez and Amy Lee
  */
 public final class Tape {
 
@@ -32,7 +32,7 @@ public final class Tape {
 
     /**
      * Writes the input string onto the tape starting at coordinate 0 and leaves the head at 0.
-     * Each character must be a digit {@code '1'}–{@code '9'} matching alphabet symbols.
+     * Each character must be a digit {1 -9 } matching alphabet symbols.
      *
      * @param input the input line (possibly empty for ε)
      */
