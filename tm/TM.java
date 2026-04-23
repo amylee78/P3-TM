@@ -148,6 +148,11 @@ public final class TM {
         }
     }
 
+
+
+
+
+
     /**
      * Flat index for a transition from {@code state} reading {@code tapeSymbol}.
      *

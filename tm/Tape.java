@@ -86,6 +86,14 @@ public final class Tape {
         }
     }
 
+    public int getMinVisited() {
+    return minVisited;
+        }
+
+    public int getMaxVisited() {
+        return maxVisited;
+    }
+
     /**
      * Builds the output string for all visited cells from left to right.
      *
@@ -96,6 +104,7 @@ public final class Tape {
         for (int i = minVisited; i <= maxVisited; i++) {
             sb.append((char) ('0' + read(i)));
         }
+       
         return sb.toString();
     }
 }

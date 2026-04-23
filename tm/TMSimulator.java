@@ -30,6 +30,10 @@ public final class TMSimulator {
         Tape tape = new Tape();
         tape.writeInitialInput(machine.getInitialInput());
         machine.run(tape, 0);
-        System.out.println(tape.visitedContents());
+        String output = tape.visitedContents();
+        System.out.println(output);
+        System.out.println("Output length: " + output.length());
+        System.out.println("min: " + tape.getMinVisited() +
+                   " max: " + tape.getMaxVisited());
     }
 }
